@@ -718,9 +718,9 @@ class WordNet
     public function constructIdiomLiterals(FsmMorphologicalAnalyzer $fsm,
                                            MorphologicalParse       $morphologicalParse1, MetamorphicParse $metaParse1,
                                            MorphologicalParse       $morphologicalParse2, MetamorphicParse $metaParse2,
-                                           ?MorphologicalParse      $morphologicalParse3, ?MetamorphicParse $metaParse3,
-                                           ?MorphologicalParse      $morphologicalParse4, ?MetamorphicParse $metaParse4,
-                                           ?MorphologicalParse      $morphologicalParse5, ?MetamorphicParse $metaParse5): array
+                                           ?MorphologicalParse      $morphologicalParse3 = null, ?MetamorphicParse $metaParse3 = null,
+                                           ?MorphologicalParse      $morphologicalParse4 = null, ?MetamorphicParse $metaParse4 = null,
+                                           ?MorphologicalParse      $morphologicalParse5 = null, ?MetamorphicParse $metaParse5 = null): array
     {
         $result = [];
         $possibleWords1 = $fsm->getPossibleWords($morphologicalParse1, $metaParse1);
@@ -800,9 +800,9 @@ class WordNet
     public function constructIdiomSynSets(FsmMorphologicalAnalyzer $fsm,
                                           MorphologicalParse       $morphologicalParse1, MetamorphicParse $metaParse1,
                                           MorphologicalParse       $morphologicalParse2, MetamorphicParse $metaParse2,
-                                          ?MorphologicalParse      $morphologicalParse3, ?MetamorphicParse $metaParse3,
-                                          ?MorphologicalParse      $morphologicalParse4, ?MetamorphicParse $metaParse4,
-                                          ?MorphologicalParse      $morphologicalParse5, ?MetamorphicParse $metaParse5): array
+                                          ?MorphologicalParse      $morphologicalParse3 = null, ?MetamorphicParse $metaParse3 = null,
+                                          ?MorphologicalParse      $morphologicalParse4 = null, ?MetamorphicParse $metaParse4 = null,
+                                          ?MorphologicalParse      $morphologicalParse5 = null, ?MetamorphicParse $metaParse5 = null): array
     {
         $result = [];
         $possibleWords1 = $fsm->getPossibleWords($morphologicalParse1, $metaParse1);
