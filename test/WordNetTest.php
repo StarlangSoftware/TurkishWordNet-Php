@@ -11,7 +11,7 @@ class WordNetTest extends TestCase
 
     protected function setUp(): void
     {
-        ini_set('memory_limit', '450M');
+        ini_set('memory_limit', '600M');
         $this->turkish = new WordNet();
     }
 
