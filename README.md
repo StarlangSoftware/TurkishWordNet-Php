@@ -60,6 +60,49 @@ Simple Web Interface
 
 [English WordNet Tree Link 1](http://104.247.163.162/nlptoolkit/english-wordnet-tree.html) [English WordNet Tree Link 2](https://starlangsoftware.github.io/nlptoolkit-web-simple/english-wordnet-tree.html)
 
+For Developers
+============
+
+You can also see [Python](https://github.com/starlangsoftware/TurkishWordNet-Py), [Cython](https://github.com/starlangsoftware/TurkishWordNet-Cy), [Java](https://github.com/starlangsoftware/TurkishWordNet), [C](https://github.com/starlangsoftware/TurkishWordNet-C), [C++](https://github.com/starlangsoftware/TurkishWordNet-CPP), [Swift](https://github.com/starlangsoftware/TurkishWordNet-Swift), [Js](https://github.com/starlangsoftware/TurkishWordNet-Js), or [C#](https://github.com/starlangsoftware/TurkishWordNet-CS) repository.
+
+## Requirements
+
+* [Php 8.4 or higher](#php)
+* [Git](#git)
+
+### Php 
+
+To check if you have a compatible version of Php installed, use the following command:
+
+    php -V
+    
+You can find the latest version of Php [here](https://www.php.net/downloads/).
+
+### Git
+
+Install the [latest version of Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+## Download Code
+
+In order to work on code, create a fork from GitHub page. 
+Use Git for cloning the code to your local or below line for Ubuntu:
+
+	git clone <your-fork-git-link>
+
+A directory called WordNet will be created. Or you can use below link for exploring the code:
+
+	git clone https://github.com/starlangsoftware/TurkishWordNet-Php.git
+
+## Open project with PhpStorm IDE
+
+Steps for opening the cloned project:
+
+* Start IDE
+* Select **File | Open** from main menu
+* Choose `WordNet-Php` file
+* Select open as project option
+* Couple of seconds, dependencies will be downloaded.
+
 For Contibutors
 ============
 
